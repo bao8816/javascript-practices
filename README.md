@@ -1,5 +1,6 @@
 # JavaScript Practices
 
+Reference: https://github.dev.cybozu.co.jp/huy-nguyen/javascript-practices
 This repository contains the JavaScript challenges.
 
 # Setup
