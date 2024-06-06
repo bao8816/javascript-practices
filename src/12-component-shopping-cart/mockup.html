@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Shopping Cart</title>
+  </head>
+  <body>
+    <h2>Shopping Cart</h2>
+    <div id="app">
+      <div class="Cart">
+        <table class="CartListView">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Subtotal</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="CartRow">
+              <td class="CartCell--item">
+                <div class="CartItem">
+                  <img src="https://dummyimage.com/250x250.png/ff4444/ffffff" />
+                  <span>Vinegar - Tarragon</span>
+                </div>
+              </td>
+              <td class="CartCell--price">$9.54</td>
+              <td class="CartCell--quantity">
+                <span class="NumericInput">
+                  <button class="NumericInput-button" disabled>
+                    <i class="fas fa-minus"></i>
+                  </button>
+                  <span class="NumericInput-value">1</span>
+                  <button class="NumericInput-button">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </span>
+              </td>
+              <td class="CartCell--subtotal">$9.54</td>
+              <td class="CartCell-actions">
+                <button>DELETE</button>
+              </td>
+            </tr>
+            <tr class="CartRow">
+              <td class="CartCell--item">
+                <div class="CartItem">
+                  <img src="https://dummyimage.com/250x250.png/cc0000/ffffff" />
+                  <span>Cookie Trail Mix</span>
+                </div>
+              </td>
+              <td class="CartCell--price">$6.06</td>
+              <td class="CartCell--quantity">
+                <span class="NumericInput">
+                  <button class="NumericInput-button">
+                    <i class="fas fa-minus"></i>
+                  </button>
+                  <span class="NumericInput-value">2</span>
+                  <button class="NumericInput-button">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </span>
+              </td>
+              <td class="CartCell--subtotal">$12.12</td>
+              <td class="CartCell--actions">
+                <button>DELETE</button>
+              </td>
+            </tr>
+            <tr class="CartRow">
+              <td class="CartCell--item">
+                <div class="CartItem">
+                  <img src="https://dummyimage.com/250x250.png/5fa2dd/ffffff" />
+                  <span>Cheese - Mozzarella</span>
+                </div>
+              </td>
+              <td class="CartCell--price">$9.29</td>
+              <td class="CartCell--quantity">
+                <span class="NumericInput">
+                  <button class="NumericInput-button" disabled>
+                    <i class="fas fa-minus"></i>
+                  </button>
+                  <span class="NumericInput-value">1</span>
+                  <button class="NumericInput-button">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </span>
+              </td>
+              <td class="CartCell--subtotal">$9.29</td>
+              <td class="CartCell--actions">
+                <button>DELETE</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="Total">Total: <span class="Total-value">$30.95</span></div>
+      </div>
+    </div>
+  </body>
+</html>

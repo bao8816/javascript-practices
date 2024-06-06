@@ -1,0 +1,161 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Pepperoni Slices",
+      "price": "6.10",
+      "isInStock": true,
+      "imageUrl": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+    },
+    {
+      "id": 2,
+      "name": "Hipnotiq Liquor",
+      "price": "9.73",
+      "isInStock": false,
+      "imageUrl": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 3,
+      "name": "Vinegar - Tarragon",
+      "price": "9.54",
+      "isInStock": true,
+      "imageUrl": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+    },
+    {
+      "id": 4,
+      "name": "Squid Ink",
+      "price": "7.17",
+      "isInStock": true,
+      "imageUrl": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 5,
+      "name": "Cheese - Brie, Triple Creme",
+      "price": "6.24",
+      "isInStock": true,
+      "imageUrl": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+    },
+    {
+      "id": 6,
+      "name": "Lady Fingers",
+      "price": "9.52",
+      "isInStock": false,
+      "imageUrl": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 7,
+      "name": "Cheese - Mozzarella",
+      "price": "9.29",
+      "isInStock": true,
+      "imageUrl": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 8,
+      "name": "Langers - Mango Nectar",
+      "price": "5.19",
+      "isInStock": false,
+      "imageUrl": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+    },
+    {
+      "id": 9,
+      "name": "Cookie Trail Mix",
+      "price": "6.06",
+      "isInStock": true,
+      "imageUrl": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+    },
+    {
+      "id": 10,
+      "name": "Miso Paste White",
+      "price": "5.28",
+      "isInStock": true,
+      "imageUrl": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+    },
+    {
+      "id": 11,
+      "name": "Veal - Round, Eye Of",
+      "price": "2.48",
+      "isInStock": true,
+      "imageUrl": "http://dummyimage.com/250x250.png/dddddd/000000"
+    },
+    {
+      "id": 12,
+      "name": "Chips - Potato Jalapeno",
+      "price": "0.99",
+      "isInStock": true,
+      "imageUrl": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+    },
+    {
+      "id": 13,
+      "name": "Capon - Breast, Double, Wing On",
+      "price": "2.53",
+      "isInStock": true,
+      "imageUrl": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+    },
+    {
+      "id": 14,
+      "name": "Yeast Dry - Fleischman",
+      "price": "3.43",
+      "isInStock": true,
+      "imageUrl": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+    },
+    {
+      "id": 15,
+      "name": "Butter - Salted",
+      "price": "1.07",
+      "isInStock": false,
+      "imageUrl": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+    },
+    {
+      "id": 16,
+      "name": "Tart Shells - Savory, 2",
+      "price": "2.07",
+      "isInStock": false,
+      "imageUrl": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+    },
+    {
+      "id": 17,
+      "name": "Truffle Cups - White Paper",
+      "price": "2.11",
+      "isInStock": true,
+      "imageUrl": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+    },
+    {
+      "id": 18,
+      "name": "Vermouth - White, Cinzano",
+      "price": "4.38",
+      "isInStock": true,
+      "imageUrl": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 19,
+      "name": "Ice - Clear, 300 Lb For Carving",
+      "price": "8.04",
+      "isInStock": true,
+      "imageUrl": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 20,
+      "name": "Salmon - Canned",
+      "price": "6.37",
+      "isInStock": true,
+      "imageUrl": "http://dummyimage.com/250x250.png/dddddd/000000"
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "productId": 3,
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "productId": 9,
+      "quantity": 2
+    },
+    {
+      "id": 3,
+      "productId": 7,
+      "quantity": 1
+    }
+  ]
+}

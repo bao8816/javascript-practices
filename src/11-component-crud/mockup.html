@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="./style.css"/>
+    <title>CRUD App</title>
+</head>
+<body>
+<h2>CRUD App</h2>
+<div id="app">
+    <section>
+        <h3>Add CartItem</h3>
+        <div class="AddItemForm">
+            <input type="text" placeholder="What do you wish for?"/>
+            <button>ADD</button>
+        </div>
+    </section>
+
+    <section>
+        <h3>Items</h3>
+        <table class="List">
+            <tr class="ListItem">
+                <td>Blandit imperdiet</td>
+                <td class="ListItem-actions">
+                    <button>EDIT</button>
+                    <button>DELETE</button>
+                </td>
+            </tr>
+            <tr class="ListItem">
+                <td>
+                    <input type="text" value="Tempor nec"/>
+                </td>
+                <td class="ListItem-actions">
+                    <button>SAVE</button>
+                    <button>CANCEL</button>
+                </td>
+            </tr>
+            <tr class="ListItem">
+                <td>Elit torquent</td>
+                <td class="ListItem-actions">
+                    <button>EDIT</button>
+                    <button>DELETE</button>
+                </td>
+            </tr>
+            <tr class="ListItem">
+                <td>Tortor litora</td>
+                <td class="ListItem-actions">
+                    <button>EDIT</button>
+                    <button>DELETE</button>
+                </td>
+            </tr>
+            <tr class="ListItem">
+                <td>Ligula viverra</td>
+                <td class="ListItem-actions">
+                    <button>EDIT</button>
+                    <button>DELETE</button>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <hr/>
+
+    <section>
+        <h3>Export</h3>
+        <button>EXPORT TO JSON</button>
+        <pre class="JsonContent">
+[
+  {
+    "id": 1,
+    "title": "Blandit imperdiet"
+  },
+  {
+    "id": 2,
+    "title": "Tempor nec"
+  },
+  {
+    "id": 3,
+    "title": "Elit torquent"
+  },
+  {
+    "id": 4,
+    "title": "Tortor litora"
+  },
+  {
+    "id": 5,
+    "title": "Ligula viverra"
+  }
+]
+        </pre>
+    </section>
+</div>
+</body>
+</html>
